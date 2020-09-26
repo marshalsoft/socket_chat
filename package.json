@@ -1,0 +1,22 @@
+{
+  "name": "mgfx",
+  "version": "1.0.0",
+  "description": "heruko app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "h":"git add. && git commit -am 'make it better' && git push heroku master"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
